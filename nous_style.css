@@ -1,0 +1,28 @@
+.my-fluid-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	background-color: black;
+	color: white;
+	font-family: Georgia, serif;
+}
+@media (min-width: 1024px) {
+	.nav{
+		float: right;
+	}
+}
+.nav{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.navbar{
+	min-height: 100px;
+}
+.navbar-inverse {
+	background-color: #000;
+
+}
+a.navbar-brand {
+	padding: 0 !important;
+}
